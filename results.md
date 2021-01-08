@@ -22,10 +22,9 @@ Since each vectorized image is 16384 × 1 pixels, the covariance matrix of data 
 
 # Image reconstruction
 
-We used the linear combinations of eigenfaces's basis (eigenfaces) to reconstructed the images in the dataset. 
+We used the linear combination of eigenfaces to reconstruct the images in the dataset. Therefore, depending on the desire quality of reconstruction, we can use different rank approximations or number of eignevectors. Of course, as we use a larger number of eigenspace's basis (eigenfaces/eigenvectors) or as we use a larger rank for reconstruction, we have a lower reconstruction error. In the following figure, we showed the reconstruction results for two randomly selected faces from the dataset using 3, 7,11, and 15 eigenvectors, and we sould how the reconstruction error decreases as the number of eignenvectors increase.
 
-
-The reconstruction can be done by doing different rank approximation. In the other words, by using different number of eigenvectors/eigenvalues we get different reconstruction qualities. As the rank of reconstruction increases, the error decreases and we get closer results to the ground truth.
+![reconstruction](https://user-images.githubusercontent.com/43753085/104058584-92492980-51b9-11eb-9029-c21ec7ab7b83.png)
 
 
 
