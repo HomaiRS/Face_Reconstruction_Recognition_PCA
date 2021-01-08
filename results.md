@@ -34,7 +34,7 @@ We used KNN (K-nearest neighbors) for the face recognition. We first projected a
 
 # Face recognition: repetitive images from same subject
 
-So far, all results are based on the centered covariance matrix of the data. However, another approach used for face recognition is to not subtracting the average face from the train/test images. A dataset containing six subject in which each subject has six different images is collected. This dataset and the average face of each subject are shown in figure 18.
+So far, all results are based on the centered covariance matrix of the data. However, another approach used for face recognition is to not centering the train/test images by subtracting the average face from the images. We provided a dataset containing face images of six subjects in which each subject has six different images is collected. This dataset and the average face of each subject are shown in figure 18.
 
 
 
