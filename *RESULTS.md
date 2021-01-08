@@ -49,4 +49,3 @@ The projection of each subject’s average face into the eigenspace results in a
 
 
 
-
