@@ -38,10 +38,13 @@ So far, all results are based on the centered covariance matrix of the data. In 
 
 ![Kutz1](https://user-images.githubusercontent.com/43753085/104073030-4d7dbc80-51d2-11eb-84bc-b7958973cd36.png)
 
-Since the average face containing common facial features such as eye, nose and etc not be subtracted from the images, then the first mode (most dominant mode) correspondes to the average face. figure 19 shows this clearly.
+Since the average face containing common facial features such as eyes, nose and etc. are not subtracted from the images, then the first eigenmode (most dominant eigenmode) using PCA correspondes to the average face. In the following figure, we showed 8 dominant eigenfaces (eigenvectors) and the eignemodes (eigenvalues) as well as the average face. It is clear that first eigenvector associated with most dominant eigenmode is same as the average face.
 
+![KutzEigenspace](https://user-images.githubusercontent.com/43753085/104073321-fe845700-51d2-11eb-8003-ca289fc83ef9.png)
 
+The projection of each subject’s average face into the eigenspace results in an unique pattern for every subject. Since every subject has a very different projection into the eigenspace, these patterns can be considered as features for classification. The following figure indicates these unique patterns per subject.
 
+![averagePattern](https://user-images.githubusercontent.com/43753085/104073704-fe388b80-51d3-11eb-81e0-63e3b0fc5618.png)
 
 
 
