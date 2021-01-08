@@ -1,5 +1,5 @@
-# MIT face recognition project dataset
-The “MIT face recognition project” (http://courses.media.mit.edu/2004fall/mas622j/04.projects/faces/) dataset was used for classifying face images using different machine learning algorithms.
+# Dataset
+This repository, contains two different datasets. 1) The “MIT face recognition project” (http://courses.media.mit.edu/2004fall/mas622j/04.projects/faces/) dataset, 2) my hand-picked celebrities images.
 
 # General eigenface procedure
 We randomly selected 40 children face images from the dataset and shown them in the following figure. Next, we used Principal Component Analysis (PCA) for dimentionality reduction, and summarizing the correlations among a set of observed variables with a smaller set of linear combinations. In order to capture the variance in the set of variables for face recognition, we computed the covariance matrix of the data containing vectorized images in each column (Γ1, ..., Γ2).
