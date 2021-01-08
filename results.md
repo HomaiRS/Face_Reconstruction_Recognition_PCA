@@ -26,5 +26,9 @@ We used the linear combination of eigenfaces to reconstruct the images in the da
 
 ![reconstruction](https://user-images.githubusercontent.com/43753085/104058584-92492980-51b9-11eb-9029-c21ec7ab7b83.png)
 
+# Face recognition
 
+We used KNN (K-nearest neighbors) for the face recognition. We first projected all images into the eigenspace and then we computed the Euclidean distance between the projection of the image in the testset with the projection of all images in the training set. The image with a smallest distance then will be recognized as the most similar face to the test image. In the folowing image, we showed the KNN results (with K=1) for face recognition.
+
+![KNN](https://user-images.githubusercontent.com/43753085/104071170-363cd000-51ce-11eb-9e05-2b0734504bf7.png)
 
