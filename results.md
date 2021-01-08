@@ -16,5 +16,16 @@ The covariance matrix of data (Φ), then, is computed by (1/M ∑mi=1 φit(φi))
 
 # Computation reduction
 
-Since each vectorized image is 16384 × 1 pixels, the covariance matrix of data is n × n as well. Thus, computing even first 20 dominant eigenvalues and eigenvectors of the C is time consuming. Thus, instead we use the formulation shown in the following figure to significantly expedite the computation time of the algorithm. This formulation reduces computation of eigenvectors/eigenvalues from computing 16384 × 16384 matrix to computing eigenvectors/eigenvalues of 16 × 16 matrix where 16 is the number of images in the dataset (m).
+Since each vectorized image is 16384 × 1 pixels, the covariance matrix of data is n × n as well. Thus, computing even first 20 dominant eigenvalues and eigenvectors of the C is time consuming. Thus, instead we use the formulation shown in the following figure to significantly expedite the computation time of the algorithm. This formulation reduces computation of eigenvectors/eigenvalues from computing 16384 × 16384 matrix to computing eigenvectors/eigenvalues of 16 × 16 matrix where 16 is the number of images in the dataset (m). Therefore, we used the lower dimention ($16 \times 16$) covariance matrix to obtain the following results. In addition to dimentionality reduction formulation, in the following figure, the pattern of the covariance matrix, the singular value matrix, and the eigenfaces matrix are shown.
+
+![reduction](https://user-images.githubusercontent.com/43753085/104049833-37103a80-51ab-11eb-91f7-8d2b90298e2a.png)
+
+# Image reconstruction
+
+We used the linear combinations of eigenfaces's basis (eigenfaces) to reconstructed the images in the dataset. 
+
+
+The reconstruction can be done by doing different rank approximation. In the other words, by using different number of eigenvectors/eigenvalues we get different reconstruction qualities. As the rank of reconstruction increases, the error decreases and we get closer results to the ground truth.
+
+
 
