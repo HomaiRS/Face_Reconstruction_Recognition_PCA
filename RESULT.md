@@ -42,10 +42,10 @@ Since the average face containing common facial features such as eyes, nose and 
 
 ![KutzEigenspace](https://user-images.githubusercontent.com/43753085/104073321-fe845700-51d2-11eb-8003-ca289fc83ef9.png)
 
-The projection of each subject’s average face into the eigenspace results in an unique pattern for every subject. Since every subject has a very different projection into the eigenspace, these patterns can be considered as features for classification. The following figure indicates these unique patterns per subject.
+The projection of each subject’s average face into the eigenspace results in an unique pattern for every subject. Since every subject has a very different projection into the eigenspace, these patterns can be considered as features for classification or for face recognition. The following figure indicates these unique patterns per subject.
 
 ![averagePattern](https://user-images.githubusercontent.com/43753085/104073704-fe388b80-51d3-11eb-81e0-63e3b0fc5618.png)
 
-
+By projecting the average face of a desired subject into the eigenspace are shown in the figure 21. As it is shown the first top two images belong to Whitney Houston. Her first image exists in the dataset already so its reconstruction is exact and its error is low. In addition, the bar chart plot of the first image shows that she looks like the third image in the data set which is exactly true. 
 
 
