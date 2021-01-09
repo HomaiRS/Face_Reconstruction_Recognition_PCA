@@ -46,6 +46,7 @@ The projection of each subject’s average face into the eigenspace results in a
 
 ![averagePattern](https://user-images.githubusercontent.com/43753085/104073704-fe388b80-51d3-11eb-81e0-63e3b0fc5618.png)
 
-By projecting the average face of a desired subject into the eigenspace are shown in the figure 21. As it is shown the first top two images belong to Whitney Houston. Her first image exists in the dataset already so its reconstruction is exact and its error is low. In addition, the bar chart plot of the first image shows that she looks like the third image in the data set which is exactly true. 
+Next, we used these unique patterns to find the closest match image in the train set for a given test image. We first projected the average face of the test image into the eigenspace and extracted the projection pattern in the eigenspace for the test image. Then, we reconstructed each test image and compared each reconstruction error with each train images. As indicated in the following figure, the reconstruction of the toppest test image is exact since this image exist in the train set. Therefore, the algorithm could with 100% accuracy recognize the test image as the number 3 in the training set images shown on the right of the following image. As indicated, based on the bar charts, the second test image is has the smallest error from the second training face image and the third and the fourth test images have the smallest error from the third image in the training set.
 
+![KutzfaceRecog](https://user-images.githubusercontent.com/43753085/104081548-005f1200-51f5-11eb-8547-657e2315c0e3.png)
 
