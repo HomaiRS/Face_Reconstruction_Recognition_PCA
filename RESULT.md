@@ -10,7 +10,7 @@ Since all faces are natural human faces, they all have common features such as e
 
 ![averageface](https://user-images.githubusercontent.com/43753085/104048518-f1eb0900-51a8-11eb-9ac7-b8bba5572104.png)
 
-The covariance matrix of data (Φ), then, is computed by (1/M ∑mi=1 φit(φi)) . C which is an n×n matrix. The PCA (SVD) is applied on this covariance matrix C([U, S, V ] = SV D(C)). The columns of V matrix are bases of eigenspace. The top eight dominant eigenvectors (eigenfaces) of are shown in the following figure.
+The covariance matrix of data (Φ), then, is computed by (1/M ∑mi=1 φit(φi)) . C which is an n×n matrix. The PCA (SVD) is applied on this covariance matrix C([U, S, V ] = SVD(C)). The columns of V matrix are bases of eigenspace. The top eight dominant eigenvectors (eigenfaces) of are shown in the following figure.
 
 ![EigSpace](https://user-images.githubusercontent.com/43753085/104048837-87869880-51a9-11eb-98e7-37639eb2e6ca.png)
 
