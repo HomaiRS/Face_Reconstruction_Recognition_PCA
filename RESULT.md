@@ -50,7 +50,7 @@ Next, we used these unique patterns to find the closest match image in the train
 
 ![KutzfaceRecog](https://user-images.githubusercontent.com/43753085/104081548-005f1200-51f5-11eb-8547-657e2315c0e3.png)
 
-# Who Do I look like the most in my hand picked celebrities data set?
+# Who Do I look like the most in my hand picked celebrities dataset?
 
 Finally, I was curious to know who do I look like the most among my hand-picked celebrities dataset. I found that among Angela Merkel, Barack Obama, christopher Nolan, Lionel Messi, Emma Watson, and Whitney Houston, my image's reconstruction has the least error (0.37) with one of the Lionel Messi's image :>. In the following figure, I showed the error between my image's reconstruction and the aformentioned celebrities dataset.
 
