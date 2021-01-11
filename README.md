@@ -9,3 +9,7 @@ We used PCA for image reconstruction.
 
 # Face recognition
 We used two methods including KNN and PCA for face recognition. 
+
+```diff
+- See the results in "RESULT.md" file.
+```
